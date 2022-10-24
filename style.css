@@ -1,0 +1,49 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr  1fr ;
+    grid-template-rows: 3fr 4fr ;
+    border: 1px solid;
+    
+}
+div{
+    border: 0.5px solid;
+}
+main{
+    border: 0.5px solid;
+}
+main img{
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+}
+aside{
+    border: 0.5 solid;
+}
+footer{
+    border:0.5px solid;
+}
+#one{
+    background-color: rgb(248, 248, 98) ;
+    border: 1px solid;
+}
+#two{
+    background-color:rgb(71, 196, 245) ;
+    border: 1px solid;
+}
+#three{
+    background-color: rgb(6, 148, 230);
+    border: 1px solid;
+
+}
+#four{
+    background-color: rgb(16, 207, 144);
+    border: 1px solid;
+}
+#five{
+    background-color: purple;
+    border: 1px solid;
+}
+
+
+}
